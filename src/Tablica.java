@@ -40,5 +40,10 @@ public class Tablica {
             System.out.println(namesTwo[i].toLowerCase());
         }
 
+        //for(zmienna inicjalna; warunek wykonywalności; modyfikator Licznika;){instrukcja wykonania}
+        for (int i = 1; i <= 10; i++){
+            System.out.println("Gajda Lukasz");
+        }
+
     }
 }
