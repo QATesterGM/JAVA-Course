@@ -9,7 +9,10 @@ public class ModyfikatoryDostepu {
         Car pierwszaFura = new Car("Volkswagen Polo", 100000, 60000, 80000);
         pierwszaFura.showCarInfo();
 
+        pierwszaFura.setPrice(1001);
+        pierwszaFura.showCarInfo();
 
+        System.out.println(pierwszaFura.getPrice());
 
     }
 }
