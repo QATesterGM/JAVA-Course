@@ -26,7 +26,7 @@ public class Tablica {
             System.out.println(name);
         }
 
-        // roznica miedzy tymi petlami jest taka, ze wpierwszej musimy znać index i możemy przeskakiwac miedzy
+        // roznica miedzy tymi petlami jest taka, ze w pierwszej musimy znać index i możemy przeskakiwac miedzy
         // elementami a w tej drugiej petla wykona sie dla kazdego elementu tablicy
 
         String[] namesTwo = {"Marta", "Lukasz", "Michał", "Tomek"};
