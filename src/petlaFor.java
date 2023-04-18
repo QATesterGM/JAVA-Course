@@ -75,5 +75,26 @@ public class petlaFor {
         for (int numberTree : numbersTree) {
             System.out.println("gotowe rozwiazanie trzecie: " + numberTree);
         }
+
+        //ZADANIE 3
+
+        int [] numbersFour = {2,4,1,9,5,2,4,0,5,8};
+
+        int min;
+
+        for (int i =0; i < numbersFour.length; i++){
+            min = numbersFour[i];
+            for(int j = i + 1; j < numbersFour.length; j++){
+                if(numbersFour[j] < min){
+                    min = numbersFour[j];
+                    numbersFour[j] = numbersFour[i];
+                    numbersFour[i] = min;
+                }
+            }
+        }
+
+        for (int numberFour : numbersFour){
+            System.out.println("Rozwiazanie zadania 3: " + numberFour);
+        }
     }
 }
