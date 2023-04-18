@@ -78,14 +78,14 @@ public class petlaFor {
 
         //ZADANIE 3
 
-        int [] numbersFour = {2,4,1,9,5,2,4,0,5,8};
+        int[] numbersFour = {2, 4, 1, 9, 5, 2, 4, 0, 5, 8};
 
         int min;
 
-        for (int i =0; i < numbersFour.length; i++){
+        for (int i = 0; i < numbersFour.length; i++) {
             min = numbersFour[i];
-            for(int j = i + 1; j < numbersFour.length; j++){
-                if(numbersFour[j] < min){
+            for (int j = i + 1; j < numbersFour.length; j++) {
+                if (numbersFour[j] < min) {
                     min = numbersFour[j];
                     numbersFour[j] = numbersFour[i];
                     numbersFour[i] = min;
@@ -93,7 +93,7 @@ public class petlaFor {
             }
         }
 
-        for (int numberFour : numbersFour){
+        for (int numberFour : numbersFour) {
             System.out.println("Rozwiazanie zadania 3: " + numberFour);
         }
     }
